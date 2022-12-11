@@ -3,56 +3,72 @@
  * NE PAS TOUCHER AUX LIGNES CI-DESSOUS
  * TRAVAILLEZ A PARTIR DE LA LIGNE 27 !!
  ************************************************************/
-.page{
+.page {
     width: 900px;
-    margin:auto;
+    margin: auto;
 }
-.entete{
+
+.entete {
     height: 100px;
 }
-.colonne_menu{
-    float:left;
-    width:200px;
-    height:100%;
+
+.colonne_menu {
+    float: left;
+    width: 200px;
+    height: 100%;
 }
+
 .colonne_contenu {
-    margin-left:200px;
+    margin-left: 200px;
 }
-.pieddepage{
-    height:50px;
+
+.pieddepage {
+    height: 50px;
 }
 
 /************************************************************
  * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
  ************************************************************/
-body{
-	background-color: wheat;
+body {
+    background-color: wheat;
     font-size: 18px;
     font-family: Arial;
     padding: 0%;
     margin: 0%;
-     
-     
+
+
 }
-.page {
-	
+
+.page {}
+
+.entete {
+    background-color: blueviolet;
+    padding: 10px;
 }
-.entete{
-    background-color: hotpink;
-}
+
 .colonnes {
     background-color: deepskyblue;
 }
-.colonne_menu{
+
+.colonne_menu {
     background-color: gold;
 }
+
 .colonne_contenu {
     background-color: lightgreen;
 }
-.pieddepage{
+
+.pieddepage {
     background-color: lightgray;
 }
 
+.title {
+    font-size: xx-large;
+    color: orangered
+}
 
-
-
+.slogan {
+    font-size: large;
+    color: orangered;
+    font-style: italic;
+}
