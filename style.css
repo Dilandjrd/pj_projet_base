@@ -59,7 +59,9 @@ body {
 }
 
 .pieddepage {
-    background-color: lightgray;
+    background-color: lime;
+    color: skyblue;
+    text-align: center;
 }
 
 .title {
