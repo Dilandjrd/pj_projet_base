@@ -55,13 +55,15 @@ body {
 }
 
 .colonne_contenu {
-    background-color: lightgreen;
+    background-color: rgb(5, 5, 71);
+    padding: 10px;
 }
 
 .pieddepage {
     background-color: lime;
     color: skyblue;
     text-align: center;
+    line-height: 1;
 }
 
 .title {
@@ -73,4 +75,36 @@ body {
     font-size: large;
     color: orangered;
     font-style: italic;
+}
+h1{
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid rgb(240, 5, 5)
+}
+h2{
+    color: aliceblue;
+    font-size: large;
+    margin: 20px;
+    font-variant: small-caps;
+}
+strong{
+    color: rgb(255, 0, 0);
+    font-weight: normal;
+}
+em{
+    color: gold;
+}
+.introduction{
+    font-style: italic;
+    border: solid;
+    padding: 10px;
+    border-radius: 10px;
+}
+a{
+    font-weight: bold;
+}
+a:hover{
+    color: white;
+    text-decoration: none;
 }
