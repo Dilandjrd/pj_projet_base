@@ -26,11 +26,16 @@
  * SAISISSEZ VOS DECLARATIONS CSS EN-DESSOUS DE CETTE LIGNE
  ************************************************************/
 body{
-	/* Pour avoir le choix des couleurs https://htmlcolorcodes.com/fr/noms-de-couleur/ */
-    background-color: mediumpurple; 
+	background-color: wheat;
+    font-size: 18px;
+    font-family: Arial;
+    padding: 0%;
+    margin: 0%;
+     
+     
 }
 .page {
-	background-color: red; 
+	
 }
 .entete{
     background-color: hotpink;
